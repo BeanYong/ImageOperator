@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/id_btn_primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="primary colors" />
+
+    <Button
+        android:id="@+id/id_btn_colorMatrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_primaryColor"
+        android:layout_marginBottom="10dp"
+        android:text="color matrix" />
+
+    <Button
+        android:id="@+id/id_btn_pixels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_colorMatrix"
+        android:layout_marginBottom="10dp"
+        android:text="pixels" />
+
+    <Button
+        android:id="@+id/id_btn_locMatrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_pixels"
+        android:layout_marginBottom="10dp"
+        android:text="location matrix" />
+
+    <Button
+        android:id="@+id/id_btn_circleImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_locMatrix"
+        android:layout_marginBottom="10dp"
+        android:text="circle image" />
+
+    <Button
+        android:id="@+id/id_btn_shader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_circleImage"
+        android:layout_marginBottom="10dp"
+        android:text="shader" />
+
+    <Button
+        android:id="@+id/id_btn_mirrorEffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_shader"
+        android:layout_marginBottom="10dp"
+        android:text="mirror effect" />
+
+    <Button
+        android:id="@+id/id_btn_mesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_mirrorEffect"
+        android:layout_marginBottom="10dp"
+        android:text="mesh" />
+
+</RelativeLayout>

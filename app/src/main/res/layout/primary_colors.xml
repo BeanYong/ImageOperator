@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_iv_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/test3" />
+
+    <SeekBar
+        android:id="@+id/id_sb_hue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_iv_img"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_saturation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_sb_hue"
+        android:layout_marginBottom="10dp" />
+
+    <SeekBar
+        android:id="@+id/id_sb_lum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_sb_saturation" />
+
+</RelativeLayout>
